@@ -1,3 +1,4 @@
+//TODO:`auth.js`: Update the auth middleware function to work with the GraphQL API. The auth middleware function should check for a token in the request headers and verify that it is valid. If the token is valid, the middleware should add the user's data to the request object so it can be accessed in the resolver functions.
 const jwt = require('jsonwebtoken');
 
 // set token secret and expiration date
